@@ -1,10 +1,10 @@
-import './App.css';
-import UserWrapper from './components/UserWrapper';
+import "./App.css";
+import UserWrapper from "./components/UserWrapper";
 
 function App() {
   return (
     <div className="App">
-      <UserWrapper/>
+      <UserWrapper />
     </div>
   );
 }
