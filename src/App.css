@@ -1,0 +1,120 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+* {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #8758ff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.App {
+  text-align: center;
+}
+
+h1 {
+  color: #fff;
+  margin-bottom: 0.5rem;
+  font-size: 1.75rem;
+}
+
+.UserWrapper {
+  background: #1a1a40;
+  margin-top: 5rem;
+  padding: 2rem;
+  border-radius: 5px;
+}
+
+.form,
+.overlay {
+  width: 100vw;
+  height: 100vh;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  position: fixed;
+}
+
+.UserForm {
+  width: 300px;
+  padding: 20px;
+  margin-bottom: 1rem;
+  background-color: #f5f5f5;
+  border-radius: 8px;
+  box-shadow: 0 0 10px #8758ff;
+}
+
+.User {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #8758ff;
+  color: #fff;
+  padding: 0.75rem 1rem;
+  border-radius: 5px;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.fa-trash,
+.fa-edit {
+  margin-left: 0.75rem;
+}
+
+.edit-icon,
+.delete-icon {
+  cursor: pointer;
+}
+
+.name-label,
+.email-label,
+.description-label {
+  display: block;
+  margin-bottom: 8px;
+}
+
+.user-input,
+.email-input,
+.description-input {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 16px;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.description-input {
+  height: 80px;
+}
+
+.add-button,
+.cancel-button,
+.update-button {
+  background-color: #8758ff;
+  color: #fff;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.add-button,
+.update-button {
+  margin-right: 2px;
+}
+.cancel-button {
+  margin-left: 2px;
+}
+
+.add-button:hover,
+.cancel-button:hover,
+.update-button:hover {
+  background-color: #332161;
+}
